@@ -147,10 +147,3 @@ results with screenshots (including failures)**, an **architecture diagram with 
 and a **5–8 minute demo video** showing a refusal, clarification or approval wait. `export/README.md`
 has the evidence checklist. A public repository URL satisfies the "source code or exported
 WorkBuddy workflow with evidence of use" requirement.
-
-## Maintainer TODO
-
-- Before submitting, confirm the Drive link in section 1a is shared as **"Anyone with the link"**:
-  https://drive.google.com/file/d/175jmxjaFbbNLhZ9vduyMDlCNWCSV4Qf_/view?usp=sharing
-- `.gitignore` already excludes `.workbuddy-ai/` (local session notes) and OS/temp junk. Remove
-  that line only if you deliberately want the session notes in the public repository.
