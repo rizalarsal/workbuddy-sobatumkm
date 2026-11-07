@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "sobatpesan-messaging": {
+      "type": "streamableHttp",
+      "url": "http://localhost:8101/mcp",
+      "headers": { "Authorization": "Bearer ${MCP_AUTH_TOKEN}" }
+    },
+    "sobatpesan-memory": {
+      "type": "streamableHttp",
+      "url": "http://localhost:8102/mcp",
+      "headers": { "Authorization": "Bearer ${MCP_AUTH_TOKEN}" }
+    },
+    "sobatpesan-office": {
+      "type": "streamableHttp",
+      "url": "http://localhost:8103/mcp",
+      "headers": { "Authorization": "Bearer ${MCP_AUTH_TOKEN}" }
+    }
+  }
+}

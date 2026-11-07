@@ -1,0 +1,32 @@
+# WorkBuddy local session data — per-machine memory notes and config, not part of the submission
+.workbuddy-ai/
+
+# macOS / OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+desktop.ini
+
+# Local secrets and machine-specific overrides
+.env
+.env.*
+*.local
+
+# Editor / backup / temp files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.log
+
+# Build artefacts (none in this repo today, kept for future scaffolding)
+node_modules/
+dist/
+build/
+coverage/
+
+# Local WhatsApp auth state — never commit credentials
+auth/

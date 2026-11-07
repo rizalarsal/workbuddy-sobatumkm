@@ -1,0 +1,68 @@
+{
+  "name": "sobat-umkm",
+  "version": "1.0.0",
+  "description": "Bahasa Indonesia admin assistant for home businesses: reads WhatsApp chats, voice notes and receipt photos, then prepares replies, orders, expenses and payments for human approval. Nothing is sent or recorded before you approve.",
+  "author": {
+    "name": "Rizal",
+    "email": "rizal@example.com"
+  },
+  "agents": [
+    "./agents/sobat-umkm.md"
+  ],
+  "expertType": "agent",
+  "agentName": "sobat-umkm",
+  "displayName": {
+    "en": "Sobat UMKM",
+    "zh": "Sobat UMKM 小微商家助理"
+  },
+  "profession": {
+    "en": "Sobat UMKM",
+    "zh": "Sobat UMKM"
+  },
+  "displayDescription": {
+    "en": "Asisten admin untuk usaha rumahan. Membaca chat WhatsApp, pesan suara, foto nota dan faktur, lalu menyiapkan balasan, catatan pesanan, pengeluaran dan pembayaran dalam Bahasa Indonesia. Ia memeriksa hitungan, tanggal, tagihan ganda, dan perintah tersembunyi di dalam dokumen. Tidak ada yang terkirim atau tercatat sebelum Anda menyetujuinya di halaman persetujuan, dan setiap langkah tercatat. Bisa dipakai tanpa WhatsApp tersambung: tempel chat atau unggah foto nota.",
+    "zh": "读取聊天、语音与票据照片，核对金额及隐藏指令，生成待批计划，未经批准不发送不记账，全程留痕。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "en": "Halo, saya pemilik usaha rumahan. Kenalan dulu dan bantu saya mulai.",
+    "zh": "你好，我是家庭小企业主。先认识一下，帮我开始吧。"
+  },
+  "plugin": "sobat-umkm",
+  "tags": [
+    {
+      "en": "WhatsApp",
+      "zh": "WhatsApp 消息处理"
+    },
+    {
+      "en": "Nota, faktur & formulir",
+      "zh": "票据与表单"
+    },
+    {
+      "en": "Setuju dulu, baru jalan",
+      "zh": "先审批后执行"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Cek pesan WhatsApp hari ini, lalu siapkan rencana untuk saya setujui.",
+      "zh": "检查今天的 WhatsApp 消息，整理出待我批准的计划。"
+    },
+    {
+      "en": "Ini foto nota belanja. Cek totalnya, lalu siapkan catatan pengeluaran.",
+      "zh": "这是购物小票照片，请核对金额并起草一条支出记录。"
+    },
+    {
+      "en": "Omzet minggu ini berapa, dan siapa yang belum bayar?",
+      "zh": "本周营业额是多少，还有谁没有付款？"
+    }
+  ],
+  "keywords": [
+    "Sobat UMKM",
+    "Amir Sobat UMKM",
+    "UMKM",
+    "WhatsApp",
+    "approval workflow"
+  ]
+}
